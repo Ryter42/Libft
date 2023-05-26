@@ -27,14 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-/*
-int main(void)
-{
-    char tab[] = "youuuuutube";
-    char c = 'u';
-    int cc = c;
-    printf("%d", ft_strrchr(tab, cc));
-	return (0);
-}
-*/
