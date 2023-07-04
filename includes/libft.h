@@ -6,7 +6,7 @@
 /*   By: emoreau <emoreau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 13:42:01 by emoreau           #+#    #+#             */
-/*   Updated: 2023/03/31 23:56:18 by emoreau          ###   ########.fr       */
+/*   Updated: 2023/07/04 14:00:29 by emoreau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ typedef struct s_list
 
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_strlen(const char *str);
+int		strllen(char **str);
 void	ft_bzero(void *s, size_t n);
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
